@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Tables table = new Tables();
+        table.createEmployeeTable();
+        EmployeeController employeeController = new EmployeeController();
+        employeeController.displayMenu();
     }
 }
